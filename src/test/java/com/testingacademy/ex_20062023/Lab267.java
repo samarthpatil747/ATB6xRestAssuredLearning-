@@ -5,7 +5,7 @@ import org.testng.annotations.Test;
 
 public class Lab267 {
 
-// Curd
+    // Curd
     // Create booking -> ID
     // Create Auth -> Token
     // Put -> ID, Token
