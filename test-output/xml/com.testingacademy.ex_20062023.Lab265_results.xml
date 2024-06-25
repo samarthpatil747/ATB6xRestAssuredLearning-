@@ -4,13 +4,13 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="0.027">
+           time="0.029">
   <properties />
             <testcase name="myTest2" time="0.003" classname="com.testingacademy.ex_20062023.Lab265">
                 <failure type="java.lang.AssertionError"
-                  message="First assertion failed expected [Smarth] but found [Samarth]"
+                  message="Second assertion failed expected [Smarth] but found [Samarth]"
               >
-<![CDATA[java.lang.AssertionError: First assertion failed expected [Smarth] but found [Samarth]
+<![CDATA[java.lang.AssertionError: Second assertion failed expected [Smarth] but found [Samarth]
   org.testng.Assert.fail(Assert.java:111)
   org.testng.Assert.failNotEquals(Assert.java:1578)
   org.testng.Assert.assertEqualsImpl(Assert.java:150)
@@ -48,6 +48,6 @@
           </testcase>
   
   
-            <testcase name="myTest1" time="0.024" classname="com.testingacademy.ex_20062023.Lab265" />
+            <testcase name="myTest1" time="0.026" classname="com.testingacademy.ex_20062023.Lab265" />
       
 </testsuite>

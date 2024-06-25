@@ -14,12 +14,13 @@ public class Lab267 {
 
     String token;
     Integer bookingId;
-    public String getToken()
-{
-    token = "1234567890";
-    return token;
-}
-@BeforeTest
+
+    public String getToken() {
+        token = "1234567890";
+        return token;
+    }
+
+    @BeforeTest
     public void getTokenAndBookingId() {
         token = getToken();
         //Post
@@ -27,6 +28,7 @@ public class Lab267 {
         bookingId = 123;
 
     }
+
     @Test
     public void testPutReq() {
         //Put
@@ -42,6 +44,7 @@ public class Lab267 {
         // code
         System.out.println(bookingId);
     }
+
     @Test
     public void testGetReq() {
         //Get
@@ -49,7 +52,6 @@ public class Lab267 {
         // code
         System.out.println(bookingId);
     }
-
 
 
 }

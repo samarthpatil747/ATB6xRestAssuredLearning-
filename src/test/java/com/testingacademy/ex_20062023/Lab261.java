@@ -12,6 +12,7 @@ public class Lab261 {
         RestAssured.given().baseUri("https://restful-booker.herokuapp.com/").basePath("/ping")
                 .when().get().then().statusCode(201);
     }
+
     @Description("Verify Test case 1 in 261 file")
     @Test
     public void getRequest2() {
