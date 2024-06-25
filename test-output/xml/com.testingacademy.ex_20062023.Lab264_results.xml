@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB6xRestAssuredLearning"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.022">
+  <properties />
+  
+  
+            <testcase name="testCase1" time="0.021" classname="com.testingacademy.ex_20062023.Lab264" />
+                <testcase name="testCase2" time="0.001" classname="com.testingacademy.ex_20062023.Lab264" />
+      
+</testsuite>

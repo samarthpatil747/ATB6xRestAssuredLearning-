@@ -1,4 +1,4 @@
-package com.testingacademy;
+package com.testingacademy.ex_20062023;
 
 import io.restassured.RestAssured;
 

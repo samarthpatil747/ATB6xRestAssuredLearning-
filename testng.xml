@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <test verbose="2" preserve-order="true" name="/Users/alpha/IdeaProjects/ATB6xRestAssuredLearning">
+        <classes>
+            <class name="com.testingacademy.ex_20062023.Lab262">
+                <methods>
+                    <include name="getRequest1"/>
+                    <include name="getRequest2"/>
+                    <exclude name="getRequest3"></exclude>
+                    <include name="getRequest4"></include>
+                </methods>
+            </class>
+            <class name="com.testingacademy.ex_20062023.Lab261"></class>
+            <class name="com.testingacademy.ex_20062023.Lab261"></class>
+            <class name="com.testingacademy.ex_20062023.Lab260"></class>
+        </classes>
+    </test>
+</suite>
