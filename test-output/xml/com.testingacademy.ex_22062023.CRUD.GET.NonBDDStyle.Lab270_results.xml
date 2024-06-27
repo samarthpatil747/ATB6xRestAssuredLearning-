@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CRUD All test"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.816">
+  <properties />
+  
+  
+            <testcase name="getRequstNonBDDstyle" time="0.816" classname="com.testingacademy.ex_22062023.CRUD.GET.NonBDDStyle.Lab270" />
+      
+</testsuite>

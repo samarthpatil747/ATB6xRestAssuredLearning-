@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="CRUD All test"
+           tests="3"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="4.918">
+  <properties />
+  
+  
+            <testcase name="testBDDstylePostPositive" time="2.053" classname="com.testingacademy.ex_22062023.CRUD.POST.Lab271" />
+                <testcase name="testNonBDDstylePostNegative" time="1.408" classname="com.testingacademy.ex_22062023.CRUD.POST.Lab271" />
+                <testcase name="testNonBDDstylePostPositive" time="1.457" classname="com.testingacademy.ex_22062023.CRUD.POST.Lab271" />
+      
+</testsuite>
