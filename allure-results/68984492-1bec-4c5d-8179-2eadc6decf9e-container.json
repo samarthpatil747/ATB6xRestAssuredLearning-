@@ -1,0 +1,1 @@
+{"uuid":"68984492-1bec-4c5d-8179-2eadc6decf9e","name":"Default Suite","children":["95301182-0e0d-4a41-8abf-ab373b9a173a"],"befores":[],"afters":[{"name":"emailSendtoQALead","status":"passed","stage":"finished","description":"","steps":[],"attachments":[],"parameters":[],"start":1719580744495,"stop":1719580744496}],"start":1719580744414,"stop":1719580744496}

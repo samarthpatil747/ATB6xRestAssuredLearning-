@@ -1,0 +1,17 @@
+
+{
+Ksrc/test/java/com/testingacademy/ex_27062023/gson/Serialization/Lab292.java,4/1/4195dc06ad3439d46e04372c0f4093147ffd6bf8
+|
+Lsrc/test/java/com/testingacademy/ex_27062023/gson/Serialization/Booking.java,6/7/67a837ffdfaa2702b0cf04e1e75592ed8e3b9f5a
+m
+=src/test/java/com/testingacademy/ex_27062023/gson/Lab291.java,0/3/03be4aaed24eb7d997b1d28de3084a8d5f2a732f
+Å
+Qsrc/test/java/com/testingacademy/ex_27062023/gson/Serialization/BookingDates.java,e/7/e70e865f9236930d7a060ea106f98345bb297fc7
+7
+pom.xml,4/4/442292b8a7efeabbe4cc176709b833b1792140ec
+r
+Bsrc/test/java/com/testingacademy/ex_22062023/CRUD/POST/Lab271.java,c/6/c66abf4ae261d6d7daa521407d53d07ee069b40c
+o
+?allure-results/ff2448c1-e3c8-4370-896d-d14bd1f3ef5c-result.json,1/3/138028a82b8f42c4f1a7e65509764f2a6633c104
+r
+Ballure-results/0a789382-01e2-41dd-9df0-64391f805a4a-container.json,8/f/8f1780bb6c8d78c972b014cf867f767f14bf3fc4

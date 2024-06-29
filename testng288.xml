@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="All Test Suite">
+    <listeners>
+        <listener class-name="com.testingacademy.ex_25062023.listners.CustomListner"></listener>
+    </listeners>
+
+    <test verbose="2" preserve-order="true" name="/Users/alpha/IdeaProjects/ATB6xRestAssuredLearning">
+        <classes>
+            <class name="com.testingacademy.ex_25062023.listners.Lab288"></class>
+            <class name="com.testingacademy.ex_25062023.listners.Lab289"></class>
+        </classes>
+
+    </test>
+</suite>

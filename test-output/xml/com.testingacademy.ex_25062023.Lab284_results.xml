@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="/Users/alpha/IdeaProjects/ATB6xRestAssuredLearning"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.027">
+  <properties />
+  
+  
+            <testcase name="testDemo1" time="0.027" classname="com.testingacademy.ex_25062023.Lab284" />
+      
+</testsuite>

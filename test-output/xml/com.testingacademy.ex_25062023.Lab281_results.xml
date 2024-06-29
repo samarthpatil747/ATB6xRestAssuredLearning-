@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB6xRestAssuredLearning"
+           tests="4"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="0.032">
+  <properties />
+  
+  
+            <testcase name="getToken" time="0.001" classname="com.testingacademy.ex_25062023.Lab281" />
+                <testcase name="getBookingID" time="0.029" classname="com.testingacademy.ex_25062023.Lab281" />
+                <testcase name="method1" time="0.001" classname="com.testingacademy.ex_25062023.Lab281" />
+                <testcase name="serverStartOk" time="0.001" classname="com.testingacademy.ex_25062023.Lab281" />
+      
+</testsuite>
