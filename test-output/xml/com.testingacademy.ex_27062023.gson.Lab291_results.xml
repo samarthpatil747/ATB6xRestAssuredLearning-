@@ -4,12 +4,12 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="4.803">
+           time="4.442">
   <properties />
   
   
-            <testcase name="testNonBDDstylePostNegative" time="1.325" classname="com.testingacademy.ex_27062023.gson.Lab291" />
-                <testcase name="testNonBDDstylePostPositive" time="1.470" classname="com.testingacademy.ex_27062023.gson.Lab291" />
-                <testcase name="testBDDstylePostPositive" time="2.008" classname="com.testingacademy.ex_27062023.gson.Lab291" />
+            <testcase name="testNonBDDstylePostNegative" time="1.020" classname="com.testingacademy.ex_27062023.gson.Lab291" />
+                <testcase name="testNonBDDstylePostPositive" time="1.413" classname="com.testingacademy.ex_27062023.gson.Lab291" />
+                <testcase name="testBDDstylePostPositive" time="2.009" classname="com.testingacademy.ex_27062023.gson.Lab291" />
       
 </testsuite>

@@ -28,7 +28,7 @@ public class Booking {
         return totalprice;
     }
 
-    public void setPrice(int price) {
+    public void setPrice(Integer price) {
         this.totalprice = price;
     }
 

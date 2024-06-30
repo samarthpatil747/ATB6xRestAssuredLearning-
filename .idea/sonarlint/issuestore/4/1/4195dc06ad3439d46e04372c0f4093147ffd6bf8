@@ -1,8 +1,8 @@
 
 Î
-java:S3577"…Rename class "Lab292" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ÆŠùÃûÿÿÿÿ8™¥³¤†2J$b746663f-4413-4df2-b677-ec54e3ee70ee
-—
+java:S3577"…Rename class "Lab292" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(ÆŠùÃûÿÿÿÿ8™¥³¤†2J$99e0e173-000c-42b2-9478-60a84efce534
+q
 java:S1128
-"TRemove this unnecessary import: same package classes are always implicitly imported.(ºÑı†8Ñü³¤†2J$b4e3b0c2-110d-4a6e-b90a-5db77796aa5b
-œ
-java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(™Íşğüÿÿÿÿ8Ñü³¤†2J$bf918aed-676d-41cc-8a21-2ee45b0b564d
+"TRemove this unnecessary import: same package classes are always implicitly imported.(ºÑı†8ìÍÈ†2
+v
+java:S1128"TRemove this unnecessary import: same package classes are always implicitly imported.(™Íşğüÿÿÿÿ8ìÍÈ†2

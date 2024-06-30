@@ -4,9 +4,9 @@
            failures="1"
            errors="0"
            skipped="0"
-           time="1.887">
+           time="1.952">
   <properties />
-            <testcase name="testNonBDDstylePostPositive" time="1.887" classname="com.testingacademy.ex_27062023.gson.Serialization.Lab292">
+            <testcase name="testNonBDDstylePostPositive" time="1.952" classname="com.testingacademy.ex_27062023.gson.Serialization.Lab292">
                 <failure type="java.lang.AssertionError"
                   message="1 expectation failed.
 Expected status code &lt;200&gt; but was &lt;500&gt;.

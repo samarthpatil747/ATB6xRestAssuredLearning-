@@ -19,13 +19,13 @@ public class Lab292 {
     // Response -> JSONString -> Object (Deserialisation)
 
 
-    RequestSpecification request = RestAssured.given();;
+    RequestSpecification request = RestAssured.given();
     ValidatableResponse validatableResponse;
     Response response;
 
 
-    @Description ("This is to test a POST request with non BDD style with valid payload")
-    @Test(priority = 1)
+    @Description ("Create booking with valid payload")
+    @Test()
     public void testNonBDDstylePostPositive() {
         String Baseurl = "https://restful-booker.herokuapp.com";
         String endpoint = "/booking";

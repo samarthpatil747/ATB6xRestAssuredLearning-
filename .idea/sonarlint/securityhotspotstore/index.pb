@@ -15,3 +15,7 @@ o
 ?allure-results/ff2448c1-e3c8-4370-896d-d14bd1f3ef5c-result.json,1/3/138028a82b8f42c4f1a7e65509764f2a6633c104
 r
 Ballure-results/0a789382-01e2-41dd-9df0-64391f805a4a-container.json,8/f/8f1780bb6c8d78c972b014cf867f767f14bf3fc4
+{
+Ksrc/test/java/com/testingacademy/ex_27062023/gson/Serialization/Lab293.java,0/3/0318592f8680dea46f9c66e21e4992812cef3bec
+{
+Ksrc/test/java/com/testingacademy/ex_27062023/gson/Serialization/Lab294.java,9/9/999e1e353eeec18b7beeb4f13229eb87e6ec0820
