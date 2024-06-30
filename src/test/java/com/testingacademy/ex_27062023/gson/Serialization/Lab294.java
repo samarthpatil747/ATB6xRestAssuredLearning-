@@ -11,7 +11,7 @@ import org.testng.annotations.Test;
 public class Lab294 {
     String Baseurl = "https://restful-booker.herokuapp.com";
     String endpoint = "/booking";
-    String payload = "{\n" +
+    /*String payload = "{\n" +
             "    \"firstname\": \"John\",\n" +
             "    \"lastname\": \"Doe\",\n" +
             "    \"totalprice\": 123,\n" +
@@ -21,7 +21,7 @@ public class Lab294 {
             "        \"checkout\": \"2019-01-01\"\n" +
             "    },\n" +
             "    \"additionalneeds\": \"Breakfast\"\n" +
-            "}";
+            "}";*/
     String nullBody = "{}";
     String contentType = "application/json";
     RequestSpecification request;
