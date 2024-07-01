@@ -31,10 +31,10 @@ public class Lab292 {
         String endpoint = "/booking";
 
         Booking booking = new Booking();
-        booking.setFirstName("Jim");
-        booking.setLastName("Brown");
-        booking.setPrice(111);
-        booking.setPaid(true);
+        booking.setFirstname("Jim");
+        booking.setLastname("Brown");
+        booking.setTotalprice(111);
+        booking.setDepositpaid(true);
 
         BookingDates bookingDates = new BookingDates();
         bookingDates.setCheckin("2024-02-01");

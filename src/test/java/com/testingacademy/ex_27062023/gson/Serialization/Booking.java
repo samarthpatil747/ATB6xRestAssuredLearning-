@@ -5,55 +5,56 @@ public class Booking {
     private String lastname;
     private Integer totalprice;
     private Boolean depositpaid;
-    private BookingDates bookingDates;
-    private String additionalNeeds;
+    private BookingDates bookingdates;
+    private String additionalneeds;
 
-    public String getFirstName() {
+
+    public String getFirstname() {
         return firstname;
     }
 
-    public void setFirstName(String firstName) {
-        this.firstname = firstName;
+    public void setFirstname(String firstname) {
+        this.firstname = firstname;
     }
 
-    public String getLastName() {
+    public String getLastname() {
         return lastname;
     }
 
-    public void setLastName(String lastName) {
-        this.lastname = lastName;
+    public void setLastname(String lastname) {
+        this.lastname = lastname;
+    }
+
+    public Boolean getDepositpaid() {
+        return depositpaid;
+    }
+
+    public void setDepositpaid(Boolean depositpaid) {
+        this.depositpaid = depositpaid;
     }
 
     public Integer getTotalprice() {
         return totalprice;
     }
 
-    public void setPrice(Integer price) {
-        this.totalprice = price;
-    }
-
-    public Boolean getPaid() {
-        return depositpaid;
-    }
-
-    public void setPaid(Boolean paid) {
-        depositpaid = paid;
+    public void setTotalprice(Integer totalprice) {
+        this.totalprice = totalprice;
     }
 
     public BookingDates getBookingDates() {
-        return bookingDates;
+        return bookingdates;
     }
 
     public void setBookingDates(BookingDates bookingDates) {
-        this.bookingDates = bookingDates;
+        this.bookingdates = bookingDates;
     }
 
     public String getAdditionalNeeds() {
-        return additionalNeeds;
+        return additionalneeds;
     }
 
     public void setAdditionalNeeds(String additionalNeeds) {
-        this.additionalNeeds = additionalNeeds;
+        this.additionalneeds = additionalNeeds;
     }
 
 
@@ -64,8 +65,8 @@ public class Booking {
                 ", lastname='" + lastname + '\'' +
                 ", totalprice=" + totalprice +
                 ", depositpaid=" + depositpaid +
-                ", bookingdates=" + bookingDates +
-                ", additionalneeds='" + additionalNeeds + '\'' +
+                ", bookingdates=" + bookingdates +
+                ", additionalneeds='" + additionalneeds + '\'' +
                 '}';
     }
 }

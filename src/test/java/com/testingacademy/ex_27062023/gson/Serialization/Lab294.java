@@ -8,26 +8,16 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
+import java.lang.reflect.Array;
+import java.util.ArrayList;
+
 public class Lab294 {
     String Baseurl = "https://restful-booker.herokuapp.com";
     String endpoint = "/booking";
-    /*String payload = "{\n" +
-            "    \"firstname\": \"John\",\n" +
-            "    \"lastname\": \"Doe\",\n" +
-            "    \"totalprice\": 123,\n" +
-            "    \"depositpaid\": true,\n" +
-            "    \"bookingdates\": {\n" +
-            "        \"checkin\": \"2018-01-01\",\n" +
-            "        \"checkout\": \"2019-01-01\"\n" +
-            "    },\n" +
-            "    \"additionalneeds\": \"Breakfast\"\n" +
-            "}";*/
-    String nullBody = "{}";
-    String contentType = "application/json";
+
     RequestSpecification request;
     ValidatableResponse validatableResponse;
     Response response;
-
 
 
     @Description ("This is to test a POST request with non BDD style with valid payload")
@@ -37,19 +27,35 @@ public class Lab294 {
         // URL Send the request
         // Body/payload/json Validate the response
         // Header content type
-        Booking booking = new Booking();
-        booking.setFirstName("Jones");
-        booking.setLastName("Brown");
-        booking.setPrice(1341);
-        booking.setPaid(true);
+        Booking booking1 = new Booking();
+        booking1.setFirstname("Jones");
+        booking1.setLastname("Brown");
+        booking1.setTotalprice(1341);
+        booking1.setDepositpaid(false);
+        BookingDates bookingDates1 = new BookingDates();
+        bookingDates1.setCheckin("2018-01-01");
+        bookingDates1.setCheckout("2019-01-01");
+        booking1.setBookingDates(bookingDates1);
+        booking1.setAdditionalNeeds("Breakfast");
 
-        BookingDates bookingDates = new BookingDates();
-        bookingDates.setCheckin("2018-01-01");
-        bookingDates.setCheckout("2019-01-01");
-        booking.setBookingDates(bookingDates);
-        booking.setAdditionalNeeds("Breakfast");
 
-        System.out.println(booking.toString());
+        Booking booking2 = new Booking();
+        booking2.setFirstname("James");
+        booking2.setLastname("White");
+        booking2.setTotalprice(1111);
+        booking2.setDepositpaid(true);
+        BookingDates bookingDates2 = new BookingDates();
+        bookingDates2.setCheckin("2024-02-01");
+        bookingDates2.setCheckout("2024-02-01");
+        booking2.setBookingDates(bookingDates2);
+        booking2.setAdditionalNeeds("Brunch");
+
+        ArrayList payload = new ArrayList();
+        payload.add(booking1);
+        payload.add(booking2);
+
+        System.out.println(booking1.toString());
+        System.out.println(booking2.toString());
         RequestSpecification request = RestAssured.given();
 
         request.baseUri(Baseurl);
@@ -57,7 +63,7 @@ public class Lab294 {
         request.contentType(ContentType.JSON);
         request.auth().none();
 
-        request.log().all().body(booking);
+        request.log().all().body(payload);
 
         response = request.when().log().all().post();
         String responseString = response.asString();

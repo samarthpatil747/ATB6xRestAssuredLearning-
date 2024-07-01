@@ -26,10 +26,10 @@ public class Lab293 {
         String BASE_PATH = "/booking";
 
         Booking booking = new Booking();
-        booking.setFirstName("Jo");
-        booking.setLastName("Brown");
-        booking.setPrice(1341);
-        booking.setPaid(true);
+        booking.setFirstname("Jo");
+        booking.setLastname("Brown");
+        booking.setTotalprice(-1);
+        booking.setDepositpaid(true);
 
         BookingDates bookingDates = new BookingDates();
         bookingDates.setCheckin("2024-02-01");
