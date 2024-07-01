@@ -1,15 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="ATB6xRestAssuredLearning"
-           tests="3"
+           tests="2"
            failures="0"
            errors="0"
            skipped="0"
-           time="4.442">
+           time="3.148">
   <properties />
   
   
-            <testcase name="testNonBDDstylePostNegative" time="1.020" classname="com.testingacademy.ex_27062023.gson.Lab291" />
-                <testcase name="testNonBDDstylePostPositive" time="1.413" classname="com.testingacademy.ex_27062023.gson.Lab291" />
-                <testcase name="testBDDstylePostPositive" time="2.009" classname="com.testingacademy.ex_27062023.gson.Lab291" />
+            <testcase name="testNonBDDStylePOSTPositive" time="1.078" classname="com.testingacademy.ex_27062023.gson.Lab291" />
+                <testcase name="testNonBDDStylePOSTNegative" time="2.070" classname="com.testingacademy.ex_27062023.gson.Lab291" />
       
 </testsuite>

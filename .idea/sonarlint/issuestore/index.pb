@@ -19,3 +19,7 @@ Ballure-results/0a789382-01e2-41dd-9df0-64391f805a4a-container.json,8/f/8f1780b
 Ksrc/test/java/com/testingacademy/ex_27062023/gson/Serialization/Lab293.java,0/3/0318592f8680dea46f9c66e21e4992812cef3bec
 {
 Ksrc/test/java/com/testingacademy/ex_27062023/gson/Serialization/Lab294.java,9/9/999e1e353eeec18b7beeb4f13229eb87e6ec0820
+r
+Bsrc/test/java/com/testingacademy/ex_22062023/CRUD/POST/Lab272.java,b/5/b59093afd8d7fb60ec83946b998b55618a0051a2
+v
+Fsrc/test/java/com/testingacademy/ex_22062023/CRUD/POST/testng_POST.xml,3/f/3fdd1e1b3f9ab1ec0315382e3f831faa4339cf87

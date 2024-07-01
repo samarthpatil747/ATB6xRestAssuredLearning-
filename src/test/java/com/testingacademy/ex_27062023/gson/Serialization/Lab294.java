@@ -37,6 +37,7 @@ public class Lab294 {
         bookingDates1.setCheckout("2019-01-01");
         booking1.setBookingDates(bookingDates1);
         booking1.setAdditionalNeeds("Breakfast");
+        System.out.println("Booking1 String data:"+booking1.toString());
 
 
         Booking booking2 = new Booking();
@@ -49,13 +50,13 @@ public class Lab294 {
         bookingDates2.setCheckout("2024-02-01");
         booking2.setBookingDates(bookingDates2);
         booking2.setAdditionalNeeds("Brunch");
+        System.out.println("Booking2 String data:"+booking2.toString());
 
         ArrayList payload = new ArrayList();
         payload.add(booking1);
         payload.add(booking2);
+        System.out.println(payload);
 
-        System.out.println(booking1.toString());
-        System.out.println(booking2.toString());
         RequestSpecification request = RestAssured.given();
 
         request.baseUri(Baseurl);

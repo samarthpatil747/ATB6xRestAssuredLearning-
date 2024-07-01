@@ -1,4 +1,4 @@
-package com.testingacademy.ex_27062023.gson;
+package com.testingacademy.ex_22062023.CRUD.POST;
 
 import com.github.javafaker.Faker;
 import io.qameta.allure.Description;
@@ -9,14 +9,8 @@ import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
 import org.testng.annotations.Test;
 
-public class Lab291 {
-    // Payload - String, Map
-    // Most used - Class and Objects
-    // Swagger API - Document,File IO binary file
+public class Lab272 {
 
-
-    // Payload -> RA -> Class/ Object -> JSONString (Who Help, Library) -> Serialisation
-    // Response -> JSONString -> Object (Deserialisation)
     RequestSpecification r = RestAssured
             .given();
 
@@ -86,6 +80,5 @@ public class Lab291 {
 
 
     }
-
-
 }
+
