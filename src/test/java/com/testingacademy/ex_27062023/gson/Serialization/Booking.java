@@ -41,15 +41,15 @@ public class Booking {
         this.totalprice = totalprice;
     }
 
-    public BookingDates getBookingDates() {
+    public BookingDates getBookingdates() {
         return bookingdates;
     }
 
-    public void setBookingDates(BookingDates bookingDates) {
-        this.bookingdates = bookingDates;
+    public void setBookingDates(BookingDates bookingdates) {
+        this.bookingdates = bookingdates;
     }
 
-    public String getAdditionalNeeds() {
+    public String getAdditionalneeds() {
         return additionalneeds;
     }
 
@@ -70,3 +70,4 @@ public class Booking {
                 '}';
     }
 }
+

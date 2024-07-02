@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="ATB6xRestAssuredLearning"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="1.558">
+  <properties />
+  
+  
+            <testcase name="JSValidation" time="1.558" classname="com.testingacademy.ex_27062023.jsonschemavalidation.Lab298" />
+      
+</testsuite>

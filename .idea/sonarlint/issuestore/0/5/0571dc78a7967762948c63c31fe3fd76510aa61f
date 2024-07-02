@@ -1,0 +1,10 @@
+
+Ê
+java:S3577"†Rename class "Lab294A" to match the regular expression: '^((Test|IT)[a-zA-Z0-9_]+|[A-Z][a-zA-Z0-9_]*(Test|Tests|TestCase|IT|ITCase))$'(Öš±™8‰¯Åô†2J$8e2fb980-5b0c-484b-a359-526d65dae6f4
+ƒ	java:S1252"<This block of commented-out lines of code should be removed.(å†Çþÿÿÿÿ8êŠÉô†2J$4f9ba118-3111-4579-a36e-413825128a8f
+
+java:S1128"7Remove this unused import 'io.restassured.RestAssured'.(ºÉµ±ùÿÿÿÿ8ëŠÉô†2J$7736d9ee-2e72-498e-a94e-aa5c5f7a036a
+
+java:S1128"<Remove this unused import 'io.restassured.http.ContentType'.(Žïè‘8ëŠÉô†2J$903c2937-67c4-4b4f-9f82-580d37837b0e
+s
+java:S1128"0Remove this unused import 'java.util.ArrayList'.(÷‰îƒ8ëŠÉô†2J$9b710df0-b955-4c70-8cf3-adce77cecd79

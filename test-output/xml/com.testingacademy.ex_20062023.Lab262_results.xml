@@ -4,11 +4,11 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="0.005">
+           time="0.004">
   <properties />
   
   
-            <testcase name="getRequest2" time="0.002" classname="com.testingacademy.ex_20062023.Lab262" />
-                <testcase name="getRequest1" time="0.003" classname="com.testingacademy.ex_20062023.Lab262" />
+            <testcase name="getRequest1" time="0.003" classname="com.testingacademy.ex_20062023.Lab262" />
+                <testcase name="getRequest2" time="0.001" classname="com.testingacademy.ex_20062023.Lab262" />
       
 </testsuite>
