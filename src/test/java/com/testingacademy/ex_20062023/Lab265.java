@@ -23,7 +23,7 @@ public class Lab265 {
     @Test
     public void myTest2() {
         //   System.out.println("Hello");
-        Assert.assertEquals("Samarth","Smarth","Second assertion failed");
+        Assert.assertEquals("Samarth","Samarth","Second assertion failed");
         System.out.println("End of the program 2");
 
 

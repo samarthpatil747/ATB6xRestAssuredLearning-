@@ -6,9 +6,12 @@ import io.restassured.http.ContentType;
 import io.restassured.response.Response;
 import io.restassured.response.ValidatableResponse;
 import io.restassured.specification.RequestSpecification;
+import org.testng.Assert;
 import org.testng.annotations.Test;
 import com.testingacademy.ex_27062023.gson.Serialization.Booking;
 import com.testingacademy.ex_27062023.gson.Serialization.BookingDates;
+import org.testng.asserts.Assertion;
+import org.testng.asserts.SoftAssert;
 
 public class Lab292 {
     // Payload - String, Map
@@ -55,6 +58,8 @@ public class Lab292 {
 
         validatableResponse = response.then();
         validatableResponse.statusCode(200).log().all();
+
+
 
     }
 
